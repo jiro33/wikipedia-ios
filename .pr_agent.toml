@@ -1,15 +1,15 @@
 [config]
-model = "gpt-4"
-model_turbo = "gpt-4-turbo"
+model="gpt-4"
+model_turbo="gpt-4-turbo"
 
 [pr_reviewer]
-extra_instructions = """\
+extra_instructions="""\
 日本語で返答してください。
 """
 
 [pr_description]
-publish_labels = false
-use_description_markers = true
-extra_instructions = """\
+publish_labels=false
+use_description_markers=true
+extra_instructions="""\
 日本語で返答してください。
 """
