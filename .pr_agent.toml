@@ -2,14 +2,14 @@
 # model="gpt-4-turbo"
 # model_turbo="gpt-4-turbo"
 
-# [pr_reviewer]
-# extra_instructions="""\
-# 日本語で返答してください。
-# """
+[pr_reviewer]
+extra_instructions = """\
+日本語で返答してください。
+"""
 
-# [pr_description]
-# publish_labels=false
-# use_description_markers=true
-# extra_instructions="""\
-# 日本語で返答してください。
-# """
+[pr_description]
+publish_labels =false
+use_description_markers = true
+extra_instructions = """\
+日本語で返答してください。
+"""
