@@ -8,8 +8,8 @@ extra_instructions = """\
 """
 
 [pr_description]
-publish_labels =false
-use_description_markers = true
+publish_labels = false
+# use_description_markers = true
 extra_instructions = """\
 日本語で返答してください。
 """
