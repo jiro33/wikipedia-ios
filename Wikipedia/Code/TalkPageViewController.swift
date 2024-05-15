@@ -419,13 +419,13 @@ class TalkPageViewController: ViewController {
         let topicComposeVC = TalkPageTopicComposeViewController(viewModel: topicComposeViewModel, authenticationManager: viewModel.authenticationManager, theme: theme)
         topicComposeVC.delegate = self
         inputAccessoryViewType = .format
-        if let url = viewModel.getTalkPageURL(encoded: false) {
-            EditAttemptFunnel.shared.logInit(articleURL: url)
-        }
         let navVC = UINavigationController(rootViewController: topicComposeVC)
         navVC.modalPresentationStyle = .pageSheet
         navVC.presentationController?.delegate = self
         present(navVC, animated: true)
+        if let url = viewModel.getTalkPageURL(encoded: false) {
+            EditAttemptFunnel.shared.logInit(articleURL: url)
+        }
     }
 
     @objc fileprivate func userDidTapAddTopicButton() {
