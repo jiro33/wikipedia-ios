@@ -6,6 +6,7 @@ model_turbo = "gpt-4-turbo"
 # model_turbo = "gpt-4o"
 
 [pr_reviewer]
+persistent_comment=false
 extra_instructions = """\
 日本語で返答してください。
 
