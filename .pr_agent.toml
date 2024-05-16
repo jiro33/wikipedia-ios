@@ -8,6 +8,12 @@ model_turbo = "gpt-4-turbo"
 [pr_reviewer]
 extra_instructions = """\
 日本語で返答してください。
+
+レビューに必要な観点###
+- 一般的なプログラミング原則に沿うこと
+- 以下の文書で示されている方針に沿うこと
+  - https://www.swift.org/documentation/api-design-guidelines/
+###
 """
 
 [pr_description]
