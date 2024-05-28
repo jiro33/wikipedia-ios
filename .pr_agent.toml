@@ -1,9 +1,9 @@
 [config]
-model = "gpt-4"
-model_turbo = "gpt-4-turbo"
+# model = "gpt-4"
+# model_turbo = "gpt-4-turbo"
 # 日本語にならなかったので、まだ使用できなさそう
-# model = "gpt-4o"
-# model_turbo = "gpt-4o"
+model = "gpt-4o"
+model_turbo = "gpt-4o"
 
 [pr_reviewer]
 persistent_comment=false
